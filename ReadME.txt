@@ -1,22 +1,34 @@
-------------------------------------------------------------------------
---------------------- Automated Testing Generator ----------------------
-------------------------------------------------------------------------
+# Automated-Testing-Generator
 
-//---- Avant de pouvoir utiliser l'application il faut tout d'abord ----
+## Description
 
-/---- Phase de Telechargement -----
+Java Swing and Selenium java application allowing testing different functionalities of a web application such as:
 
--> Télécharger Chrome Web Driver : https://chromedriver.chromium.org/downloads
--> Télécharger le package Selenium : https://selenium-release.storage.googleapis.com/3.141/selenium-java-3.141.59.zip
+  - Authentication with correct data.
+  - Authentication with incorrect data.
+  - Authentication with empty fields.
+      - Email field.
+      - Password field.
+  - Creation of an account.
+      - Existing email .
+      - New email.
+  - Recovering a forgotten password.
+      - Valid email.
+      - Invalid email.
+  - Search bar.
+  
+## Requirement
 
-/---- Phase d'importation -----
+- Download Chrome web Driver
+- Download Selenium JAVA package
+- Java IDE (IntelliJ IDEA)
 
--> Importer les Jar files de Selenium dans le Projet
--> Changer l'emplacement du Chrome Web driver
-   Code a changer: System.setProperty("webdriver.chrome.driver", "C:\\Users\\tchic\\Downloads\\chromedriver.exe");
+## Set-up
 
-//---- Vous pouvez maintenant executer l'application ----
+- Import Jar Selenium jar files into the Projet
+- Change the location of the Chrome web driver
+  Code to change: System.setProperty ("webdriver.chrome.driver", "C: \\ Users \\ tchic \\ Downloads \\ chromedriver.exe");
 
-------------------------------------------------------------------------
---------------------- Aymane Tchich && Yassine Kifane ------------------
-------------------------------------------------------------------------
+## Author
+* **Fupov** ([GitHub](https://github.com/Fupov/) 
+* **Kifane** ([GitHub](https://github.com/YassineKifane/))
