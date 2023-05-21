@@ -30,5 +30,5 @@ Java Swing and Selenium java application allowing testing different functionalit
   Code to change: System.setProperty ("webdriver.chrome.driver", "C: \\ Users \\ tchic \\ Downloads \\ chromedriver.exe");
 
 ## Author
-* **Fupov** ([GitHub](https://github.com/Fupov/) 
+* **Fupov** ([GitHub](https://github.com/Fupov/))
 * **Kifane** ([GitHub](https://github.com/YassineKifane/))
